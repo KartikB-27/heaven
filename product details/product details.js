@@ -2,7 +2,7 @@
 async function loadProductData(productId) {
     try {
         // Fetch JSON file containing product data
-        const response = await fetch('/products.json'); // Update path to your JSON file
+        const response = await fetch('./products.json'); // Update path to your JSON file
         const data = await response.json();
 
         // Ensure products array exists
