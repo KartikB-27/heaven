@@ -110,7 +110,7 @@ searchInput.addEventListener("input", function () {
   const tags = []; // Assuming you will populate this array with your tags from the JSON file
 
   // Fetch and filter tags based on the search query
-  fetch("/products.json")
+  fetch("./products.json")
     .then(response => response.json())
     .then(data => {
       tags.push(...data.products.flatMap(product => product.tags || [])); // Extract tags from JSON
@@ -162,7 +162,7 @@ function performSearch(query) {
     localStorage.setItem('searchQuery', query);
 
     // Redirect to search.html with the query parameter
-    window.location.href = `/search/search.html?query=${encodeURIComponent(query)}`;
+    window.location.href = `./search/search.html?query=${encodeURIComponent(query)}`;
   } else {
     alert('Please enter a product to search!');
   }
@@ -174,6 +174,7 @@ document.addEventListener("click", (event) => {
     suggestionsBox.classList.remove("show");
   }
 });
+
 
 
 emailjs.init("u5XwVOf5DVqkt7PsU"); // Replace with your actual Public Key
