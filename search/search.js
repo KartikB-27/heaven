@@ -3,7 +3,7 @@ const params = new URLSearchParams(window.location.search);
 const searchQuery = params.get("query").toLowerCase();
 
 // Fetch products from the JSON file
-fetch("/products.json")
+fetch("./products.json")
   .then((response) => response.json())
   .then((data) => {
     const products = data.products;
@@ -24,7 +24,7 @@ fetch("/products.json")
 
         // Make the entire container clickable
         productCard.innerHTML = `
-          <div class="shop-card" onclick="window.location.href='/product details/product details.html?id=${product.id}'">
+          <div class="shop-card" onclick="window.location.href='./product details/product details.html?id=${product.id}'">
             <div class="card-banner img-holder" style="--width: 540; --height: 720;">
               <img
                 src="${product.images[0]}"
@@ -49,7 +49,7 @@ fetch("/products.json")
                 <span class="span">${product.price}</span>
               </div>
               <h3>
-                <a href="/product details/product details.html?id=${product.id}" class="card-title">${product.name}</a>
+                <a href="./product details/product details.html?id=${product.id}" class="card-title">${product.name}</a>
               </h3>
               <div class="card-rating">
                 <div class="rating-wrapper" aria-label="5-star rating">
