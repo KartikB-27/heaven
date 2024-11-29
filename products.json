@@ -1,0 +1,165 @@
+{
+    "products": [
+        {
+            "id": 101,
+            "name": "Glowing Hair Shield Spray",
+            "description": "Glowing Hair Shield Spray is a protective hair mist designed to shield your hair from environmental damage, heat styling, and UV rays. Enriched with nourishing ingredients, it helps to maintain moisture, reduce frizz, and enhance shine.",
+            "price": "₹ 639",
+            "ingredients": "Aloe Vera, Green Tea Extract, Vitamin E, Argan Oil, Sunflower Seed Oil, Panthenol (Pro-Vitamin B5), Glycerin, Citrus Extract",
+            "tags": ["Glowing Hair Shield Spray", "hair care", "hair", "spray", "under 700", "glowing", "sheild"],
+            "images": [
+                "/assets/images/product-01-1.jpg",
+                "/assets/images/product-01-2.jpg",
+                "/assets/images/product-01-3.jpg"
+            ],
+            "benefits": [
+                "- Protects against heat styling and UV rays",
+                "- Nourishes and hydrates hair",
+                "- Reduces frizz and enhances shine",
+                "- Lightweight and non-greasy"
+            ],
+            "ratings": {
+                "totalReviews": "100ml"
+            }
+            
+        },
+        {
+            "id": 102,
+            "name": "Bio-shroom Rejuvenating Serum",
+            "description": "The Bio-Shroom Rejuvenating Serum revitalizes skin with a potent blend of mushroom extracts, promoting hydration, reducing fine lines, and restoring a natural, radiant glow. Perfect for daily skincare.",
+            "price": "₹ 499",
+            "ingredients": "Reishi Mushroom Extract, Hyaluronic Acid, Chaga Mushroom Extract, Vitamin C, Aloe Vera",
+            "tags": ["Bio-shroom Rejuvenating Serum", "serum", "skin", "skincare", "under 500", "bio shroom"],
+            "images": [
+                "/assets/images/product-02.jpg"
+            ],
+            "benefits": [
+                "- Deeply hydrates and plumps skin.",
+                "- Reduces fine lines and wrinkles.",
+                "- Brightens complexion and evens skin tone.",
+                "- Soothes irritation and boosts elasticity.",
+                "- Promotes natural radiance and resilience."
+            ],
+            "ratings": {
+                "totalReviews": "50ml"
+            }
+        },
+        {
+            "id": 103,
+            "name": "Mountain Pine Altogether Bath Oil",
+            "description": "Get yourself together with this universal oil made from natural ingredients. High concentrations of jojoba and macadamia oils work together to instantly hydrate all your parts— from the top of your scalp to the tips of your toes. ",
+            "price": "₹ 449",
+            "ingredients": "Simmondsia Chinensis (Jojoba) Seed Oil, Coco-Caprylate/Caprate, Ethyl Macadamiate, Vitis Vinifera (Grape) Seed Oil, Tocopherol, Aloe Barbadensis Leaf Juice, Panax Ginseng Root Extract, Citrus Sinensis (Sweet Orange) Peel Oil, Citrus Aurantium Amara (Neroli) Oil, Citrus Limon (Lemon) Peel Oil, Citrus Aurantium Amara (Petitgrain) Leaf/Twig Oil, Elettaria Cardamomum (Cardamom) Oil, Pogostemon Cablin (Patchouli) Oil, Coriandrum Sativum (Coriander) Leaf Oil Organic",
+            "tags": ["Mountain Pine Altogether Bath Oil", "oil", "bath oil", "altogether", "pine", "bath", "citrus", "under 500"],
+            "images": [
+                "/assets/images/product 103-2.jpg",
+                "/assets/images/product103-5.jpg",
+                "/assets/images/product 103-3.jpg",
+                "/assets/images/product 103-4.jpg"
+            ],
+            "benefits": [
+                "- Relaxation & Stress Relief.",
+                "- Hydrates & Moisturizes Skin.",
+                "- Eases Muscle Tension.",
+                "- Revitalizes the Senses.",
+                "- Improves Circulation."
+            ],
+            "ratings": {
+                "totalReviews": "100ml"
+            }
+        },
+        {
+            "id": 104,
+            "name": "S-Energy Facial Mousse Cleanser",
+            "description": "The S-Energy Facial Mousse Cleanser is a luxurious, gentle, and effective facial cleanser designed to deeply cleanse and purify the skin while maintaining its natural moisture balance. Its airy, mousse-like texture transforms into a soft lather that effortlessly removes dirt, oil, and makeup, leaving the skin feeling refreshed and rejuvenated.",
+            "price": "₹ 349",
+            "ingredients": "Aloe Vera Extract, Chamomile Extract, Vitamin E, Glycerin, Cocamidopropyl Betaine, Sodium Chloride, Citric Acid, Phenoxyethanol",
+            "tags": ["S-Energy Facial Mousse Cleanser", "facial cleanser", "cleanser", "s energy", "mousse", "face", "under 400"],
+            "images": [
+                "/assets/images/product-104-5.jpg",
+                "/assets/images/product104-1.jpg",
+                "/assets/images/product104-2.jpg",
+                "/assets/images/product104-3.jpg"
+            ],
+            "benefits": [
+                "- Cleanses and refreshes the skin.",
+                "- Removes dirt, oil, and makeup gently.",
+                "- Helps maintain skin's natural moisture balance.",
+                "- Soothes and calms the skin.",
+                "- Revitalizes the complexion, leaving it feeling soft and smooth."
+            ],
+            "ratings": {
+                "totalReviews": "150ml"
+            }
+        },
+        {
+            "id": 105,
+            "name": "Bright Eyes- Eye Mask",
+            "description": "Bright Eyes Eye Mask is designed to reduce puffiness, dark circles, and signs of fatigue around the eyes. Infused with nourishing ingredients, it hydrates and revitalizes the delicate skin, leaving you with refreshed, bright eyes for a more youthful look.",
+            "price": "₹ 99",
+            "ingredients": "Aloe Vera Extract, Cucumber Extract, Chamomile Extract, Vitamin E, Hyaluronic Acid, Glycerin, Jojoba Oil, Peptides, Allantoin, Panthenol, Sodium Hyaluronate, Phenoxyethanol",
+            "tags": ["Bright Eyes- Eye Mask", "eye", "eye mask", "bright eye", "skin", "face" ,"facial", "under 100"],
+            "images": [
+                "/assets/images/product-105-main.jpg",
+                "/assets/images/product-105-1.jpg",
+                "/assets/images/product-105-2.jpg"
+            ],
+            "benefits": [
+                "- Reduces puffiness and dark circles around the eyes.",
+                "- Hydrates and refreshes tired eyes.",
+                "- Soothes and calms the delicate skin under the eyes.",
+                "- Helps improve skin elasticity and smoothness.",
+                "- Revitalizes the eye area, leaving it feeling refreshed and rejuvenated."
+            ],
+            "ratings": {
+                "totalReviews": "Pack of 1:- 8 g"
+            }
+        },
+        {
+            "id": 106,
+            "name": "Glowing Skin Moisturizer 50gm",
+            "description": "Glowing Skin Moisturizer is expertly formulated to hydrate and nourish your skin, giving it a radiant glow. Enriched with a blend of natural ingredients, this moisturizer absorbs quickly and helps to maintain the skin's moisture balance, leaving it soft, smooth, and youthful.",
+            "price": "₹ 149",
+            "ingredients": "Aqua, Glycerin, Aloe Vera Extract, Jojoba Oil, Shea Butter, Vitamin E, Hyaluronic Acid, Niacinamide, Allantoin, Panthenol, Sodium Hyaluronate, Phenoxyethanol",
+            "tags": ["moisturizer", "hydration", "glow", "skin care", "face", "daily use", "under 150", "Moisturizer", "skin"],
+            "images": [
+                "/assets/images/product-05.jpg",
+                "/assets/images/product-106-2.jpg"
+            ],
+            "benefits": [
+                "- Deeply hydrates and nourishes the skin.",
+                "- Enhances skin radiance and natural glow.",
+                "- Improves skin texture and elasticity.",
+                "- Suitable for all skin types.",
+                "- Lightweight and non-greasy formula."
+            ],
+            "ratings": {
+                "totalReviews": "50 gm"
+            }
+        },
+        {
+            "id": 107,
+            "name": "Cleansing Mousse Serum",
+            "description": "A lightweight, airy mousse that gently cleanses the skin while removing impurities and makeup. Infused with hydrating ingredients, it leaves your skin feeling fresh, soft, and rejuvenated.",
+            "price": "₹ 159",
+            "ingredients": "Aqua, Glycerin, Sodium Cocoyl Isethionate, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Aloe Vera Extract, Chamomile Extract, Vitamin E, Panthenol, Allantoin, Citric Acid, Sodium Chloride, Phenoxyethanol, Ethylhexylglycerin",
+            "tags": ["Cleansing", "Mousse", "Serum", "Face Wash", "Skincare", "Hydrating", "Gentle Cleanser", "Makeup Remover", "Under 200", "skincare", "skin"],
+            "images": [
+                "/assets/images/product-06.jpg",
+                "/assets/images/product-107-1.jpg"
+            ],
+            "benefits": [
+                "- Gently cleanses the skin without stripping natural oils.",
+                "- Removes impurities and makeup effectively.",
+                "- Hydrates and nourishes the skin.",
+                "- Soothes irritation and redness.",
+                "- Leaves the skin feeling soft, fresh, and revitalized."
+            ],
+            "ratings": {
+                "totalReviews": "100 gm"
+            }
+        }
+        
+        
+    ]
+}
