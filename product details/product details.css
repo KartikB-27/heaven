@@ -1,0 +1,293 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main layout */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Product Container */
+#product-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/images/hero-banner-3.jpg);
+    padding: 40px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Product Details Card */
+.product-details {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 1600px;
+    animation: fadeIn 0.8s ease;
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    align-items: flex-start;
+}
+
+/* Product Image */
+.product-image {
+    margin-top: 20px;
+    flex: 1 1 50%;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.product-image img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-image img:hover {
+    transform: scale(1.03);
+}
+
+/* Product Information */
+.product-info {
+    flex: 1 1 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #ffffff;
+}
+
+.product-info h1 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 4rem;
+    color: rgb(245, 86, 112);
+    margin-bottom: 20px;
+    animation: slideInFromLeft 0.6s ease;
+}
+
+.product-info p,
+.product-info .product-detail {
+    font-size: 1.6rem;
+    margin: 12px 0;
+    color: #4a4a4a;
+}
+
+.product-info span {
+    font-weight: bold;
+    color: rgb(245, 86, 112);
+}
+
+.product-info .product-detail strong {
+    color:rgb(245, 86, 112);
+    font-size: 2rem;
+}
+
+/* Benefits Section */
+#product-benefits h3 {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color:rgb(245, 86, 112);
+}
+
+#product-benefits ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+#product-ratings h3 {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: rgb(245, 86, 112);
+}
+
+#product-ratings p {
+    margin-top: 10px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    background: rgb(245, 86, 112);
+    color: #e3f5e3;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    align-self: start;
+    animation: fadeIn 1s ease;
+}
+
+.add-to-cart:hover {
+    background: #1f1f1f;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Thumbnail Container */
+.thumbnail-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    margin-top: 25px;
+    overflow-x: auto;
+    justify-content: center;
+    scrollbar-width: none;
+    /* For Firefox */
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+}
+
+.thumbnail-container::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Edge */
+}
+
+.thumbnail-container img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.thumbnail-container img:hover {
+    transform: scale(0.9);
+    border-color: var(--hoockers-green);
+}
+
+.thumbnail-container img.active {
+    border-color:var(--hoockers-green);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #product-container{
+        padding: 15px;
+    }
+    .product-image {
+        flex: 1 1 100%;
+        padding-right: 0;
+        max-width: 500px;
+        justify-content: center;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+
+    .product-info {
+        flex: 1 1 100%;
+        padding: 20px;
+    }
+
+    .product-info h1 {
+        font-size: 3.5rem;
+        margin-bottom: 25px;
+    }
+
+    .product-info p {
+        font-size: 1.4rem;
+    }
+
+    .add-to-cart {
+        padding: 10px 20px;
+        font-size: 1.6rem;
+        font-size: 25px;
+    }
+
+    .thumbnail-container img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-info h1 {
+        font-size: 3.5rem;
+    }
+
+    .product-info p {
+        font-size: 1.2rem;
+    }
+
+    .add-to-cart {
+        font-size: 1.5rem;
+    }
+
+    .thumbnail-container img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-info h1 {
+        font-size: 2.6rem;
+    }
+
+    .product-info p {
+        font-size: 1.2rem;
+    }
+
+    .add-to-cart {
+        font-size: 1.6rem;
+    }
+
+    .thumbnail-container img {
+        width: 55px;
+        height: 55px;
+        justify-content: center;
+    }
+}
